@@ -1,0 +1,66 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\BlessedKiller\\Desktop\\Wanderson\\DIO\\DOTNET\\Fundamentos\\Fundamentos.NET6\\Fundamentos.NET6.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\BlessedKiller\\Desktop\\Wanderson\\DIO\\DOTNET\\Fundamentos\\Fundamentos.NET6\\Fundamentos.NET6.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\BlessedKiller\\Desktop\\Wanderson\\DIO\\DOTNET\\Fundamentos\\Fundamentos.NET6\\Fundamentos.NET6.csproj",
+        "projectName": "Fundamentos.NET6",
+        "projectPath": "C:\\Users\\BlessedKiller\\Desktop\\Wanderson\\DIO\\DOTNET\\Fundamentos\\Fundamentos.NET6\\Fundamentos.NET6.csproj",
+        "packagesPath": "C:\\Users\\BlessedKiller\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\BlessedKiller\\Desktop\\Wanderson\\DIO\\DOTNET\\Fundamentos\\Fundamentos.NET6\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\BlessedKiller\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
