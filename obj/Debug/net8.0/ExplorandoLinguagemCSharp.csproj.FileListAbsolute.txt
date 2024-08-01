@@ -1,0 +1,14 @@
+C:\Users\BlessedKiller\Desktop\Wanderson\DIO\DOTNET\ExplorandoLinguagemCSharp\bin\Debug\net8.0\ExplorandoLinguagemCSharp.exe
+C:\Users\BlessedKiller\Desktop\Wanderson\DIO\DOTNET\ExplorandoLinguagemCSharp\bin\Debug\net8.0\ExplorandoLinguagemCSharp.deps.json
+C:\Users\BlessedKiller\Desktop\Wanderson\DIO\DOTNET\ExplorandoLinguagemCSharp\bin\Debug\net8.0\ExplorandoLinguagemCSharp.runtimeconfig.json
+C:\Users\BlessedKiller\Desktop\Wanderson\DIO\DOTNET\ExplorandoLinguagemCSharp\bin\Debug\net8.0\ExplorandoLinguagemCSharp.dll
+C:\Users\BlessedKiller\Desktop\Wanderson\DIO\DOTNET\ExplorandoLinguagemCSharp\bin\Debug\net8.0\ExplorandoLinguagemCSharp.pdb
+C:\Users\BlessedKiller\Desktop\Wanderson\DIO\DOTNET\ExplorandoLinguagemCSharp\obj\Debug\net8.0\ExplorandoLinguagemCSharp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\BlessedKiller\Desktop\Wanderson\DIO\DOTNET\ExplorandoLinguagemCSharp\obj\Debug\net8.0\ExplorandoLinguagemCSharp.AssemblyInfoInputs.cache
+C:\Users\BlessedKiller\Desktop\Wanderson\DIO\DOTNET\ExplorandoLinguagemCSharp\obj\Debug\net8.0\ExplorandoLinguagemCSharp.AssemblyInfo.cs
+C:\Users\BlessedKiller\Desktop\Wanderson\DIO\DOTNET\ExplorandoLinguagemCSharp\obj\Debug\net8.0\ExplorandoLinguagemCSharp.csproj.CoreCompileInputs.cache
+C:\Users\BlessedKiller\Desktop\Wanderson\DIO\DOTNET\ExplorandoLinguagemCSharp\obj\Debug\net8.0\ExplorandoLinguagemCSharp.dll
+C:\Users\BlessedKiller\Desktop\Wanderson\DIO\DOTNET\ExplorandoLinguagemCSharp\obj\Debug\net8.0\refint\ExplorandoLinguagemCSharp.dll
+C:\Users\BlessedKiller\Desktop\Wanderson\DIO\DOTNET\ExplorandoLinguagemCSharp\obj\Debug\net8.0\ExplorandoLinguagemCSharp.pdb
+C:\Users\BlessedKiller\Desktop\Wanderson\DIO\DOTNET\ExplorandoLinguagemCSharp\obj\Debug\net8.0\ExplorandoLinguagemCSharp.genruntimeconfig.cache
+C:\Users\BlessedKiller\Desktop\Wanderson\DIO\DOTNET\ExplorandoLinguagemCSharp\obj\Debug\net8.0\ref\ExplorandoLinguagemCSharp.dll
