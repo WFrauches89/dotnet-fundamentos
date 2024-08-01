@@ -12,3 +12,4 @@ C:\Users\BlessedKiller\Desktop\Wanderson\DIO\DOTNET\ExplorandoLinguagemCSharp\ob
 C:\Users\BlessedKiller\Desktop\Wanderson\DIO\DOTNET\ExplorandoLinguagemCSharp\obj\Debug\net8.0\ExplorandoLinguagemCSharp.pdb
 C:\Users\BlessedKiller\Desktop\Wanderson\DIO\DOTNET\ExplorandoLinguagemCSharp\obj\Debug\net8.0\ExplorandoLinguagemCSharp.genruntimeconfig.cache
 C:\Users\BlessedKiller\Desktop\Wanderson\DIO\DOTNET\ExplorandoLinguagemCSharp\obj\Debug\net8.0\ref\ExplorandoLinguagemCSharp.dll
+C:\Users\BlessedKiller\Desktop\Wanderson\DIO\DOTNET\ExplorandoLinguagemCSharp\obj\Debug\net8.0\ExplorandoLinguagemCSharp.sourcelink.json

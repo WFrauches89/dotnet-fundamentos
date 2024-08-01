@@ -13,6 +13,13 @@ namespace ExplorandoLinguagemCSharp.Models
             this.Nome = nome;
             this.Sobrenome = sobrenome;
         }
+
+        public void Deconstruct(out string nome, out string sobrenome)
+        {
+            nome = Nome;
+            sobrenome = this.Sobrenome;
+        }
+
         public Pessoa(string nome, string sobrenome, int idade)
         {
             Nome = nome;
