@@ -1,6 +1,7 @@
 ﻿// See https://aka.ms/new-console-template for more information
 
 using ExplorandoLinguagemCSharp.Models;
+using Newtonsoft.Json;
 
 // (int, string, string, decimal) tupla = (10, "Leonardo", "Buta", 1.68M);
 // (int Id, string Nome, string Sobrenome, decimal Altura) tupla2 = (10, "Leonardo", "Buta", 1.68M);
@@ -273,10 +274,108 @@ Console.WriteLine($"{nomeDoDeconstruct} {sobrenomeDoDeconstruct} Recebido por de
 
 int numberOFive = 20;
 
-if (numberOFive % 2 == 0) Console.WriteLine($"O número {numberOFive} é par");
-else Console.WriteLine($"O número {numberOFive} é ímpar");
+// Utilizando IF
+if (numberOFive % 2 == 0) Console.WriteLine($"IF - Comum ----- >O número {numberOFive} é par");
+else Console.WriteLine($"IF - Comum ----- >O número {numberOFive} é ímpar");
 
 
 bool ehPar = numberOFive % 2 == 0;
 
-Console.WriteLine($"O número {numberOFive} é " + (ehPar ? "par" : "ímpar"));
+//Utlizando 
+Console.WriteLine($"IF - Ternário ----- > O número {numberOFive} é " + (ehPar ? "par" : "ímpar"));
+
+//Utilizando Método Extensão
+
+int numberOFiveMetodoExtensao = 25;
+
+Console.WriteLine($"Método Extensão ---- > O número {numberOFiveMetodoExtensao} é " + (numberOFiveMetodoExtensao.EhPar() ? "par" : "ímpar"));
+
+//Trabalhando com JSON Serialize
+
+// List<Venda> vendas = new List<Venda>();
+
+// //DateTime - ISO8601 Format Date Time
+
+// Venda v1 = new Venda(01, "Vassoura", 15.25M, DateTime.Now);
+// Venda v2 = new Venda(02, "Pá", 5.75M, DateTime.Now);
+// Venda v3 = new Venda(03, "Rodo Mágico", 105.00M, DateTime.Now);
+
+// vendas.Add(v1);
+// vendas.Add(v2);
+// vendas.Add(v3);
+
+// string serializandoLista = JsonConvert.SerializeObject(vendas);
+// string serializandoListaIdentado = JsonConvert.SerializeObject(vendas, Formatting.Indented);
+
+// string v1Serializado = JsonConvert.SerializeObject(v1);
+// string v1SerializadoIdentado = JsonConvert.SerializeObject(v1, Formatting.Indented);
+
+// File.WriteAllText("./Arquivos/venda.json", v1Serializado);
+// File.WriteAllText("./Arquivos/vendaidentada.json", v1SerializadoIdentado);
+
+// File.WriteAllText("./Arquivos/vendas.json", serializandoLista);
+// File.WriteAllText("./Arquivos/vendasidentada.json", serializandoListaIdentado);
+
+// Console.WriteLine(v1Serializado);
+// Console.WriteLine(v1SerializadoIdentado);
+
+// //Trabalhando com JSON DeserializeObject
+
+
+// string conteudoArquivo = File.ReadAllText("./Arquivos/vendasidentada.json");
+
+// List<VendaForDeserializeObject> listaDeserializados =
+//             JsonConvert.DeserializeObject<List<VendaForDeserializeObject>>(conteudoArquivo);
+
+// foreach (VendaForDeserializeObject itemVenda in listaDeserializados)
+// {
+//     Console.WriteLine($"Id: {itemVenda.Id}, Produto: {itemVenda.Produto}, "
+//                       + $" Preço: {itemVenda.Preco}, "
+//                       + $" Data da Venda: {itemVenda.DataVenda.ToString("dd/MM/yyyy HH:mm")}");
+// }
+
+MyArray<string> myArray = new MyArray<string>();
+MyArray<int> myArray2 = new MyArray<int>();
+
+myArray.AdicionarNaLista("Primeiro item da lista");
+myArray.AdicionarNaLista("Segundo item da lista");
+myArray.AdicionarNaLista("Terceiro item da lista");
+myArray.AdicionarNaLista("Quarto item da lista");
+
+myArray2.AdicionarNaLista(15);
+myArray2.AdicionarNaLista(5);
+myArray2.AdicionarNaLista(125);
+myArray2.AdicionarNaLista(150);
+myArray2.AdicionarNaLista(105);
+myArray2.AdicionarNaLista(215);
+myArray2.AdicionarNaLista(152);
+myArray2.AdicionarNaLista(1);
+myArray2.AdicionarNaLista(2);
+myArray2.AdicionarNaLista(20);
+myArray2.AdicionarNaLista(21); // não inserido excedeu limite
+
+Console.WriteLine(myArray2[9]);
+
+Console.WriteLine(myArray[0]);
+Console.WriteLine(myArray[3]);
+Console.WriteLine(myArray[2]);
+Console.WriteLine(myArray[1]);
+
+
+// internal class Venda
+// {
+//     public Venda(int id, string produto, decimal preco, DateTime dataVenda)
+//     {
+//         this.Id = id;
+//         this.Produto = produto;
+//         Preco = preco;
+//         DataVenda = dataVenda;
+
+//     }
+//     public int Id { get; set; }
+//     public string Produto { get; set; }
+//     public decimal Preco { get; set; }
+//     public DateTime DataVenda { get; set; }
+// }
+
+

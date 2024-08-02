@@ -13,3 +13,6 @@ C:\Users\BlessedKiller\Desktop\Wanderson\DIO\DOTNET\ExplorandoLinguagemCSharp\ob
 C:\Users\BlessedKiller\Desktop\Wanderson\DIO\DOTNET\ExplorandoLinguagemCSharp\obj\Debug\net8.0\ExplorandoLinguagemCSharp.genruntimeconfig.cache
 C:\Users\BlessedKiller\Desktop\Wanderson\DIO\DOTNET\ExplorandoLinguagemCSharp\obj\Debug\net8.0\ref\ExplorandoLinguagemCSharp.dll
 C:\Users\BlessedKiller\Desktop\Wanderson\DIO\DOTNET\ExplorandoLinguagemCSharp\obj\Debug\net8.0\ExplorandoLinguagemCSharp.sourcelink.json
+C:\Users\BlessedKiller\Desktop\Wanderson\DIO\DOTNET\ExplorandoLinguagemCSharp\bin\Debug\net8.0\Newtonsoft.Json.dll
+C:\Users\BlessedKiller\Desktop\Wanderson\DIO\DOTNET\ExplorandoLinguagemCSharp\obj\Debug\net8.0\ExplorandoLinguagemCSharp.csproj.AssemblyReference.cache
+C:\Users\BlessedKiller\Desktop\Wanderson\DIO\DOTNET\ExplorandoLinguagemCSharp\obj\Debug\net8.0\Exploran.745994A6.Up2Date
